@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import DatingCard from 'react-tinder-card'
-import axios from './axios'
 import './DatingCards.css'
 const DatingCards = () => {
 	const [people, setPeople] = useState([
